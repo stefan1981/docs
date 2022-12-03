@@ -3,38 +3,41 @@
 ## Usefull keys and sequences
 
 ### Insert Text
-a          append right to the cursor
-A          append right to the line
-ea         append at end of word
-i          insert left to the cursor
-I          insert at beginning of line
-s          substitute character
-S          substitute line
-o          insert line below cursor
-O          insert line above cursor
+```
+a          append right to the cursor  
+A          append right to the line  
+ea         append at end of word  
+i          insert left to the cursor  
+I          insert at beginning of line  
+s          substitute character  
+S          substitute line  
+o          insert line below cursor  
+O          insert line above cursor  
+```
 
 ### Moving the cursor
-H          to beginning of page
-M          to middle of page
-L          to end of page
-gg         to the beginning of the document
-G          to the end of the document
-$          to the end of the line
-0          to the geginning of line
-^          to the beginning of line (first non space char)
-h          left (one character)
-l          right (one character)
-j          one line down
-k          one line up
-4k         four lines up
-13G        instantly to line 13
-w          to beginning of next word
-e          to end of next word
-b          to beginning of previous word
-3w         to the beginning of the next third word
-<C - e>    move screen one line up
-<C - y>    move screen one line down
-
+H          to beginning of page  
+M          to middle of page  
+L          to end of page  
+gg         to the beginning of the document  
+G          to the end of the document  
+$          to the end of the line  
+0          to the geginning of line  
+^          to the beginning of line (first non space char)  
+h          left (one character)  
+l          right (one character)  
+j          one line down  
+k          one line up  
+4k         four lines up  
+13G        instantly to line 13  
+w          to beginning of next word  
+e          to end of next word  
+b          to beginning of previous word  
+3w         to the beginning of the next third word  
+<C - e>    move screen one line up  
+<C - y>    move screen one line down  
+  
+  
 ### Deleting
 x          character right to the cursor
 X          character left to the cursor
