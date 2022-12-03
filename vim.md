@@ -1,8 +1,8 @@
-### VIM COmmands
+# VIM COmmands
 
 ## Usefull keys and sequences
 
-# Insert Text
+### Insert Text
 a          append right to the cursor
 A          append right to the line
 ea         append at end of word
@@ -13,7 +13,7 @@ S          substitute line
 o          insert line below cursor
 O          insert line above cursor
 
-# Moving the cursor
+### Moving the cursor
 H          to beginning of page
 M          to middle of page
 L          to end of page
@@ -35,7 +35,7 @@ b          to beginning of previous word
 <C - e>    move screen one line up
 <C - y>    move screen one line down
 
-# Deleting
+### Deleting
 x          character right to the cursor
 X          character left to the cursor
 diw        the current word where the cursor is over
@@ -54,7 +54,7 @@ dTX        from cursor to previous X (excluding X)
 dFX        from cursor to previous X (including X)
 cit        delete inside tags and write immediately something
 
-# Marking, Copy and paste
+### Marking, Copy and paste
 *          highlight all words, like that under the cursor
 V          visually mark the whole current line
 viw        visually mark word under cursor
@@ -67,7 +67,7 @@ yiw        copy word under cursor
 yi"        copy text between ". Works for (, [, {, ', < too
 ya"        copy text between quotes Works for (, [, {, ', < too
 
-# Search and replace
+### Search and replace
 replace all foo with bar (% = in all lines, s=substitute)
 :%s/foo/bar/g
 
@@ -95,7 +95,7 @@ Working with files
 :bprevious               goto previous buffer
 :buffer X                jump to buffer X (get buffer-number with :ls command)
 
-# Working with windows
+### Working with windows
 <C – w>s                 splits the current window horizontally
 <C – w>v                 splits the current window verically
 <C – w>c                 close the current window
@@ -103,7 +103,7 @@ Working with files
 <C – w>=                 fit all windows to the same size
 <C -w>T                  moves the current window into a new Tab
 
-# Working with Tabs
+### Working with Tabs
 :tabnew                  create a new tab
 :tabclose                closes the current tab
 gt                       goto next tab
@@ -112,12 +112,12 @@ gT                       goto previous tab
 :tabprevious             goto previous tab
 :map <F5> gt             map „goto next tab“ to the F5 key
 
-# Sorting and manipulating the contents structure
+### Sorting and manipulating the contents structure
 :sort                    sort all lines alphabetically
 :sort u                  sort all lines alphabetically and remove duplicates
 ggVGu                    lowercase whole Text
 
-# Shortkeys
+### Shortkeys
 fe                       go to next letter "e" in the current line
 Fe                       go to pevious letter "e" in current line
 ;                        go to next occurence of what you found with t/T/f/F :h f        show the vim internal help for f
@@ -125,33 +125,31 @@ Fe                       go to pevious letter "e" in current line
 <C-x>                    decrease a marked number
 J                        hang next line to the end of current line
 
-Settings
+## Settings
 show all visible characters like spaces, tabs, line breaks / hide all visible characters
-
 set list
 set nolist
-Enable / Disable syntax highlighting
 
+Enable / Disable syntax highlighting
 syntax on
 syntax off
-Enabling current row and column highlighting
 
+Enabling current row and column highlighting
 set cursorline
 set cursorcolumn
+
 Enabling relative line numbering (cursor is always at zero)
-
 set relativenumber
-Indentation in vi
 
+Indentation in vi
 you want to mark something in visual mode, and indent the selected part several times to the left or the right?
 First, you add these lines to your .vimrc
-
 vnoremap < <gv
 vnoremap > >gv
 Now you can visually select a text passage (press v move the arrow keys), afterward, indent it to the left by pressing < or indent it to the right by pressing >
 
-Plugins
-CtrlP
+## Plugins
+### CtrlP
 CtrlP allows you, to easily select files and open them in Tabs or windows
 
 <C - f>         Open file search
