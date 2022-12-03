@@ -1,4 +1,4 @@
-# VIM COmmands
+# VIM Commands
 
 ## Usefull keys and sequences
 
