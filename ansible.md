@@ -24,3 +24,8 @@ verify your inventory file
 ```
 ansible-inventory -i inventory.yaml --list
 ```
+
+ping the machines in the inventory
+```
+ansible virtualmachines -m ping -i inventory.yaml
+```
