@@ -10,6 +10,7 @@ chown                change owner
 chpasswd             change password
 chsh                 change login shell
 clear                empty the screen
+compgen              show all commands (-b buildin, -c all)
 cp                   copy files and folders
 cut                  cut columns
 date                 show current date
@@ -30,6 +31,7 @@ hostname             show computer name
 htop                 system status (cpu, memory)
 ifconfig             list network interfaces
 ln                   create a symbolic link
+look                 lookup a word in a dictionary
 ls                   list content of folder
 man                  show manual
 more                 display file
@@ -42,6 +44,7 @@ ps                   show processes
 pushd                save current directory in the dir-stack
 pwd                  print working directory
 scp                  copy files to/from a remote machine
+tac                  display content of a file in reverse order
 tail                 show end of file
 uname                show os version
 unzip                unzip files
