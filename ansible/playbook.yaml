@@ -1,0 +1,35 @@
+- name: My first play
+  hosts: virtualmachines
+  vars:
+      pip_module: names
+      example_text: test123
+  tasks:
+   - name: Ping my hosts
+     ansible.builtin.ping:
+   - name: Print message
+     ansible.builtin.debug:
+       var: playbook_dir
+   # files and folders
+   - name: create a folder
+     file:
+       path: ansible/test
+       state: directory
+   - name: create a file
+     file:
+       path: ansible/test/text.txt
+       state: touch
+   - name: create a file with content
+     copy:
+       dest: ansible/test/text2.txt
+       content: |
+           Zeile1
+           Zeile2
+           {{ example_text }}
+   # pip install
+   - name: install pip modul names with specific version
+     pip:
+       name: '{{ pip_module }}==0.2'
+   - name: remove pip module
+     pip:
+       name: '{{ pip_module }}'
+       state: absent

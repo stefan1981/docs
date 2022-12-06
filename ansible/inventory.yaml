@@ -1,4 +1,5 @@
 virtualmachines:
     hosts:
         vm01:
-            ansible_host: v37134.1blu.de
+            ansible_host: 127.0.0.1
+            #ansible_host: v37134.1blu.de
