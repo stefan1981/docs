@@ -110,3 +110,55 @@ while read -r LINE; do
 sed -i s#\"my\/folder\",\"your\/folder\"#g "$LINE";
 done < filenames.txt
 ```
+
+## PDF frontpage to jpg
+First find all the files you want to convert and store their filenames in a file
+
+```
+find my-pdf-folder/ -type f -name "*.pdf" > pdffiles.txt
+```
+
+Iterate through that files and make a jpeg from them
+
+```
+while read -r LINE; do pdftoppm -f 1 -singlefile -jpeg "$LINE" "$LINE"; done < pdffiles.txt
+```
+
+Finally move all jpgs to a separate location if necessary
+
+```
+find my-pdf-folder/ -type f -name "*.jpg" -exec mv {} jpgs/ \;
+```
+
+## Find files and strings on the shell
+Find files and file content on the terminal can be achieved by the use of the find tool.
+
+By far one of the best tools is "Silversearcher ag", install it with sudo apt-get install silversearcher-ag. If you want to search for example recursive all folders, only php files for the search string "my Value", simply type:
+```
+ag --php "my Value" .
+```
+
+Find file/s containing a specific string in its name:
+```
+find . -name "*mySearchString*" -type f
+```
+
+Now list all files that contain the word "searchTerm"
+```
+find . -type f -exec grep -l 'searchTerm' {} \;
+```
+
+List all the occurrence and their respective line-number of "searchTerm" in files. The parameter -n toggles the line-number, the parameter -H toggles the filename.
+```
+find . -type f -exec grep -Hn 'searchTerm' {} \;
+```
+
+Do you want to list all files bigger than size x? Here we go:
+```
+find . -type f -size +100M -exec ls -lh {} \;
+```
+
+A handy tool as well is ack-grep (you have to install it first). Be sure to wrap the search-term in single quotes.
+```
+ ack-grep --php '"the":"SearchTerm"'
+```
