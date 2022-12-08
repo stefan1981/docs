@@ -235,3 +235,87 @@ This is for windows using the cmd. Parsing a folder recursively for all pdf file
 ```
 for /R %f in (*.pdf) do curl -F "data=@%f" www.mydomain.com/upload
 ```
+
+## Monitoring network traffic
+### tcpdump
+
+You want to track all incomming http-Headers on your Webserver?
+```
+sudo tcpdump -A -s 10240 'tcp port 80' | egrep --line-buffered "^........(GET |HTTP\/|POST |HEAD )|^[A-Za-z0-9-]+: " | sed -r 's/^........(GET |HTTP\/|POST |HEAD )/\n\1/g'
+```
+
+Show the HTTP Requests only:
+
+```
+sudo tcpdump -A -s 10240 'tcp port 80' | egrep "^........(GET |HTTP\/|POST |HEAD )|^[:alnum:]+: " | sed -r 's/^........(GET |HTTP\/|POST |HEAD )/\n\1/g'
+```
+
+capture for a specific URL string (only inside the url's path)
+
+```
+sudo tcpdump -s0 -A -vv | grep "myPathString"
+```
+
+
+### tcptrack
+
+A quite handy tool for monitoring tcp traffic is tcptrack. Get it with:
+
+```
+sudo apt-get install tcptrack
+```
+
+and start it with
+
+```
+sudo tcptrack -i eth0 port 80
+```
+
+the interface parameter -i eth0 must be according to your needs, you can check your interfaces with ifconfig.
+
+There is also tcpdump, tcpflow and other nice tools
+
+### Netstat
+Sometimes one like to figure out what programs listen at a port. Here we can get an overview with:
+```
+sudo netstat -tupln
+```
+
+Where t=tcp, u=udp, p=show program name, l=show listening ports, n= numeric (not resolve machine names)
+The Output could look something like this:
+
+```
+Proto Recv-Q Send-Q Local Address Foreign Address State PID/Program name
+tcp 0 0 127.0.0.1:3306 0.0.0.0:* LISTEN 1338/mysqld 
+tcp 0 0 127.0.1.1:53 0.0.0.0:* LISTEN 1709/dnsmasq 
+tcp 0 0 0.0.0.0:22 0.0.0.0:* LISTEN 1303/sshd 
+tcp 0 0 127.0.0.1:3350 0.0.0.0:* LISTEN 1900/xrdp-sesman
+tcp 0 0 127.0.0.1:9050 0.0.0.0:* LISTEN 1356/tor 
+tcp 0 0 0.0.0.0:3389 0.0.0.0:* LISTEN 1887/xrdp 
+tcp6 0 0 :::80 :::* LISTEN 2064/apache2 
+tcp6 0 0 :::22 :::* LISTEN 1303/sshd 
+tcp6 0 0 :::443 :::* LISTEN 2064/apache2 
+udp 0 0 0.0.0.0:35885 0.0.0.0:* 1709/dnsmasq 
+udp 0 0 0.0.0.0:5353 0.0.0.0:* 7335/chrome 
+udp 0 0 0.0.0.0:5353 0.0.0.0:* 1062/avahi-daemon: 
+udp 0 0 0.0.0.0:55935 0.0.0.0:* 1062/avahi-daemon: 
+udp 0 0 127.0.1.1:53 0.0.0.0:* 1709/dnsmasq 
+udp 0 0 0.0.0.0:68 0.0.0.0:* 1698/dhclient 
+udp 0 0 0.0.0.0:631 0.0.0.0:* 4625/cups-browsed
+udp6 0 0 :::51764 :::* 1709/dnsmasq 
+udp6 0 0 :::45088 :::* 1062/avahi-daemon: 
+udp6 0 0 :::5353 :::* 7335/chrome 
+udp6 0 0 :::5353 :::* 1062/avahi-daemon:
+```
+
+### lsof
+With lsof you can determine easily which program listens on a port and under which user that program runs:
+```
+sudo lsof -i :80
+```
+
+### mtr
+Need Ping  and traceroute combined in a single application? Use mtr (matt's traceroute)
+```
+mtr google.com
+```
