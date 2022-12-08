@@ -20,7 +20,7 @@
 - If a class depends on another class, both of them should depend on abstractions, rather than on concrete implementations.
 - Interfaces (abstractions) are less likely to change than concrete implementations, so relying on interfaces lead less likely to breaks.
   
-
+  
 
 # Component cohesion
 ### (REP) Reuse-Release-Equivalence Principle
