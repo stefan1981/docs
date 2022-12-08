@@ -9,13 +9,13 @@
 - A module should be open for extensions and closed for modifications.
 - Using the "Dependency Inversion Principle" is one way to achieve the "Open Close Principle".
 - OCP can reached by using the Strategy pattern
--
+
 ## Liskov Substitution Principle (LSP)
 - A instance of a derived class (subclass) should bahave in such a way, that it can be used as the base class, without any unexpected behaviour. - A derived class should be able to replace its Base-class without causing errors.
--
+
 ## Interface Segregation Principle (ISP)
 - An interface should be limited to a minimum of methods, so that the inheriting classes don't need to implement unneeded methods.
--
+
 ## Dependency Inversion Principle (DIP)
 - If a class depends on another class, both of them should depend on abstractions, rather than on concrete implementations.
 - Interfaces (abstractions) are less likely to change than concrete implementations, so relying on interfaces lead less likely to breaks.
