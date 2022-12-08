@@ -19,8 +19,6 @@
 ### Dependency Inversion Principle (DIP)
 - If a class depends on another class, both of them should depend on abstractions, rather than on concrete implementations.
 - Interfaces (abstractions) are less likely to change than concrete implementations, so relying on interfaces lead less likely to breaks.
-  
-  
 
 # Component cohesion
 ### (REP) Reuse-Release-Equivalence Principle
@@ -49,7 +47,7 @@ Dont write the same code again and again. Try to reuse them as good as possible.
 
 ### Keep it Simple Stupid (KISS)
 Don't overcomplicate things. Try to keep things as simple as possible. Showing you skills with complex and hard to read algorithmns is counter productive.
--
+
 ### Favour Composition over Inheritance (FCol)
 It is better to compose objects with others than to build structures who derive from each other. When you compose an object from other objects it's easier to replace parts and maintain.
 
@@ -67,7 +65,7 @@ Try to seperate different concerns from each other. SoC is closely related to th
 
 ### Information Hiding Principle
 The less information an object exposes the outer world (e.g. public methods), the less is its coupling to the outer world. Objects who have a limited set of public functions are more intuitive to use.Try to hide purely internal stuff inside the object and don't allow them to be used from outside.
--
+
 ### Law of Demeter
 The law of demeter says that the inter-relation between objects should be limited to a necessary amount. Whatever this amount might be, but an object should communicate to its relatives and not to every stranger-object.
 
@@ -76,38 +74,38 @@ Do not implement functionality that might cover unclear requirements. Before you
 
 -
 # Domain driven development (DDD)
-## Ubiquitous language
+### Ubiquitous language
 a language, developed specifically within a bounded context. This language should be developed with the domain-experts (those people who hold the knowledge about the domain) and the developers.
 
-## Bounded Context
+### Bounded Context
 This is a pattern for strategic design within DDD. With a bounded context you break down larger contexts into smaller ones to reach a clear seperation between contexts. WIthin such a context you usually have a ubiquitous language. Furthermore it is important to deermini the interrelations between bounded contexts.
 
-## sub domains
+### sub domains
 Your company is a whole large company domain. You may just work in a specific or in a logically seperated part of that company. These part can be called a subdomain. There are three kinds of subdomains: the core domain (this is where the money is generated), supporting domains (these one support your core business) and generic ones (these ones are needet but not directly connected to your business). A bounded context may have several subdomains within. In the best case a
     bounded context reflects a one-to-one relation between subdomain and bounded-context.
 
-## Core domain
+### Core domain
 The core domain reflects the core of your company, you main business, its the heard of what you company does, the core domain should be developeed only by the brightest heads in your company.
 
-## Context Mapping
+### Context Mapping
 With context mapping you define some kind of interrelation between bounded contexts. Different kinds of context mapping exist (partnership, shared kernel, custom-supplier, conformist, anticorruption-layer, open host service, published language, separate ways). Generally speak context mapping is about interfaces between bounded contexts.
 
-## Big Ball of Mud
+### Big Ball of Mud
 A big ball of mud is a large monolithic system without clear boundaries. Everithing does somehow depend on everithing. A change can possibly cause a defect somewhere else.
 
-## Entity
+### Entity
 An entity represents an individual object with an owb identity. For example: a specific instance of an user is an entity. A user is a general object, but a specific instance of a user is an entity.
 
-## Value Object
+### Value Object
 A value object represents an unchangable conceptual Whole.
 
-## Aggregate
+### Aggregate
 Examples of Aggregates are Products, Discussions, Forums. They are logical units which are made (aggregated) from other parts.
 
-## Domain Event
+### Domain Event
 Domain events are events specific for a domain. The name of a domain events should contain a verb in the past-form like: productCreated, customerCalled, cakeBaked. Domain events are emited by their producers and can be imagined as messages, flowing to their recipients to trigger ongoing actions.
 
-## Event storming
+### Event storming
 Event storming is a management technique where domain-experts an developers together design the business-processes. It is not about the technical aspects but about the processes itself.
 
 # PHP version changes
