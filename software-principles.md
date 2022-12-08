@@ -21,56 +21,56 @@
 - Interfaces (abstractions) are less likely to change than concrete implementations, so relying on interfaces lead less likely to breaks.
 
 # Component cohesion
-## (REP) Reuse-Release-Equivalence Principle
+### (REP) Reuse-Release-Equivalence Principle
 - If you want to reuse a component beyond the scope of a certain release, you need to track its version number and its behaviour.In the best case, a release creates a comprehensive documentation, about what a component does.
 
-## (CCP) Common-Closure Principle
+### (CCP) Common-Closure Principle
 - Classes which need to be modified by the same reason should be clustered into the same component.
 
-## (CRP) Common-Reuse Principle
+### (CRP) Common-Reuse Principle
 - Those classes who are usually used together, should be in the same component.
 
 # Component coupling
-## (ADP) Acyclic-Dependencies Principle
+### (ADP) Acyclic-Dependencies Principle
 - There should not be any cyclical dependencies between components. In general: Specific things should depend on abstract things. Not the other direction.
 
-## (SDP) Stable-Dependencies Principle
+### (SDP) Stable-Dependencies Principle
 - Dependencies should flow into the same direction like stability.
 - The Fan-In/Fan-Out Metric is a tool to measure the stability.
 
-## (SAP) Stable-Abstraction Principle
+### (SAP) Stable-Abstraction Principle
 - A component should be as abstract as stable.
 
 # General software-development principles
-## Don't repeat yourself (DRY)
-- Dont write the same code again and again. Try to reuse them as good as possible. By applying higher software-design concepts it will become more easy to reuse code.
+### Don't repeat yourself (DRY)
+Dont write the same code again and again. Try to reuse them as good as possible. By applying higher software-design concepts it will become more easy to reuse code.
 
-## Keep it Simple Stupid (KISS)
-- Don't overcomplicate things. Try to keep things as simple as possible. Showing you skills with complex and hard to read algorithmns is counter productive.
+### Keep it Simple Stupid (KISS)
+Don't overcomplicate things. Try to keep things as simple as possible. Showing you skills with complex and hard to read algorithmns is counter productive.
 -
-## Favour Composition over Inheritance (FCol)
-- It is better to compose objects with others than to build structures who derive from each other. When you compose an object from other objects it's easier to replace parts and maintain.
+### Favour Composition over Inheritance (FCol)
+It is better to compose objects with others than to build structures who derive from each other. When you compose an object from other objects it's easier to replace parts and maintain.
 
-## Boy scout rule
-- Always leave a place (the source-code) more tidy than you have found it.
+### Boy scout rule
+Always leave a place (the source-code) more tidy than you have found it.
 
-## Root cause analysis
-- Find/fix the root-cause of a problem. Just solving symptoms won't eliminate the problem. Understand and solve what cause the problem and you solved it fundamentally.
+### Root cause analysis
+Find/fix the root-cause of a problem. Just solving symptoms won't eliminate the problem. Understand and solve what cause the problem and you solved it fundamentally.
 
-## Single level of abstraction (SLA)
-- There are different levels of Abstraction, like shifting bits abround and calling methods. Try not to mix this different layers of abstraction.
+### Single level of abstraction (SLA)
+There are different levels of Abstraction, like shifting bits abround and calling methods. Try not to mix this different layers of abstraction.
 
-## Seperation of Concerns (SoC)
-- Try to seperate different concerns from each other. SoC is closely related to the Single-Responsibility-Principle. Concerns cover broader aspects like Database-Access, Graphical-Output or Business-logic. When you have these things properly seperated, its easier to replace whole sub-systems or connect other user-interfaces. SoC leads to loose koupling and a higher cohession.
+### Seperation of Concerns (SoC)
+Try to seperate different concerns from each other. SoC is closely related to the Single-Responsibility-Principle. Concerns cover broader aspects like Database-Access, Graphical-Output or Business-logic. When you have these things properly seperated, its easier to replace whole sub-systems or connect other user-interfaces. SoC leads to loose koupling and a higher cohession.
 
-## Information Hiding Principle
-- The less information an object exposes the outer world (e.g. public methods), the less is its coupling to the outer world. Objects who have a limited set of public functions are more intuitive to use.Try to hide purely internal stuff inside the object and don't allow them to be used from outside.
+### Information Hiding Principle
+The less information an object exposes the outer world (e.g. public methods), the less is its coupling to the outer world. Objects who have a limited set of public functions are more intuitive to use.Try to hide purely internal stuff inside the object and don't allow them to be used from outside.
 -
-## Law of Demeter
-- The law of demeter says that the inter-relation between objects should be limited to a necessary amount. Whatever this amount might be, but an object should communicate to its relatives and not to every stranger-object.
+### Law of Demeter
+The law of demeter says that the inter-relation between objects should be limited to a necessary amount. Whatever this amount might be, but an object should communicate to its relatives and not to every stranger-object.
 
-## You Ain't gonna need it (YAGNI)
-- Do not implement functionality that might cover unclear requirements. Before you write dozens of exceptions which try to cover side-effect, caused by unclear requirements, you better clarify the requirements and make them more strict. The requirements are the crucial part of the software-development. The more precise the requirements are, the simpler it is to develop a ruleset matching excactly this requirements.
+### You Ain't gonna need it (YAGNI)
+Do not implement functionality that might cover unclear requirements. Before you write dozens of exceptions which try to cover side-effect, caused by unclear requirements, you better clarify the requirements and make them more strict. The requirements are the crucial part of the software-development. The more precise the requirements are, the simpler it is to develop a ruleset matching excactly this requirements.
 
 -
 # Domain driven development (DDD)
