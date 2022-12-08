@@ -72,7 +72,6 @@ The law of demeter says that the inter-relation between objects should be limite
 ### You Ain't gonna need it (YAGNI)
 Do not implement functionality that might cover unclear requirements. Before you write dozens of exceptions which try to cover side-effect, caused by unclear requirements, you better clarify the requirements and make them more strict. The requirements are the crucial part of the software-development. The more precise the requirements are, the simpler it is to develop a ruleset matching excactly this requirements.
 
--
 # Domain driven development (DDD)
 ### Ubiquitous language
 a language, developed specifically within a bounded context. This language should be developed with the domain-experts (those people who hold the knowledge about the domain) and the developers.
