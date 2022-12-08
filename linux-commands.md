@@ -162,3 +162,32 @@ A handy tool as well is ack-grep (you have to install it first). Be sure to wrap
 ```
  ack-grep --php '"the":"SearchTerm"'
 ```
+
+## show word occurence in pdf on commandline
+Do you want to know how often words occur in a pdf file? And sort them by the most occurring word:
+```
+pdftotext mypdf.pdf - | sed "s/[[:cntrl:][:digit:][:punct:]]//g" | tr '[:space:]' '[\n*]' | sort | uniq -c | sort -bnr
+```
+Let's break it down step by step:
+```
+pdftotext mypdf.pdf -
+```
+
+displays the pdf content on the command-line
+```
+sed "s/[[:cntrl:][:digit:][:punct:]]//g"
+```
+
+replaces all control characters (cntrl), all numbers (digits) and all punctuation characters (punct) with an empty string.
+See here for character classes.
+```
+tr '[:space:]' '[\n*]'
+```
+
+replaces all spaces with a newline
+```
+sort | uniq -c | sort -bnr
+```
+
+The last part sorts the output, groups unique lines and prefix them with the amount and finally sort them again
+with ignored leading blanks (-b), sort numeric (-n), in reverse order (-r)
