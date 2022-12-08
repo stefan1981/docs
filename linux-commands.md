@@ -319,3 +319,150 @@ Need Ping  and traceroute combined in a single application? Use mtr (matt's t
 ```
 mtr google.com
 ```
+
+# Linux tutorial
+These tutorials explain the Linux operating system (os) step by step. Starting with simple examples and getting more advanced each lesson.
+
+The line where we type in the commands is called the prompt, the blinking something right to it is the cursor.
+
+Lets show who is logged in:
+```
+whoami
+```
+
+And the hostname of the computer can be shown with:
+```
+hostname
+```
+
+As you can see, username and hostname are contained in the prompt.
+
+If you want to know the name of the operating system, you can use:
+```
+uname
+```
+
+How long the computer is up (not rebooted since) shows the following command:
+```
+uptime
+```
+
+Clear all the stuff on the screen with:
+```
+clear
+```
+
+If you using the arrow keys (up and down), you can browse between the commands you already entered.
+
+When you want to know in which folder you are, use:
+```
+pwd
+```
+
+It's short for: print working directory.
+
+Let's go to your users home directory by typing:
+```
+cd
+```
+
+At this location, all the files related to your current user are stored. You home-folder is a special folder. The tilde sign "~" is a synonym for your home folder. Instead of typing "cd" you can type "cd ~" as well. When you're in your home folder you can see the tilde in the prompt. The tilde sign is a variable. You can output its content to the screen:
+```
+echo ~
+```
+
+Create a directory named garage withe this command:
+```
+mkdir garage
+```
+
+mkdir is short for: make directory
+
+Most important command of all is "cd". It means change directory. With this command you can browse in the directory tree.
+Let's switch to the directory "garage" you recently created by typing:
+```
+cd garage
+```
+
+The prompt, by the way, also shows you in which directory you are. (So you don't have to type pwd all the time)
+
+If I want to go back in the directory-tree, like one level up, we use:
+```
+cd ..
+```
+
+Don't forget a space between cd and the two dots. The two dots are a symbol for the upper (superordinate) folder.
+
+If you type the first letters of a command, try to press two times the tab-key, and the command will be completed.
+This will save your time. It's one of the most useful ways to increase your working speed.
+
+Commands you have head about in Part1 are:
+whoami, hostname, uname, uptime, clear, pwd, cd, echo, ~ and others.
+
+In the second part of the Linux Tutorial, we will learn about dealing with files and folders (directory).
+
+First move to your home directory with (change directory):
+```
+cd
+```
+
+Now let us create a directory, named "garage", with the "make directory" command:
+```
+mkdir garage
+```
+
+You have created the garage directory, but you are still inside your home directory. Go into the garage directory with:
+```
+cd garage
+```
+
+Notice,  that the "change directory" is by far the most important command. You will see, that you will use this command very often.
+In the next step, you go "one directory up", so that you will be in your home directory again. This can be achieved with:
+```
+cd ..
+```
+
+Don't forget the space between "cd" and the two dots. The two dots is a sign for the directory above. There is a top-level directory, called the root. There is no directory above the root directory. You can go there with:
+```
+cd /
+```
+
+Again, there is a space between "cd" and the "slash". If you are curious whats inside the root folder, type:
+```
+ls -l
+```
+
+The list command, with the parameter "l", shows you the directories content. Time to go back into our garage directory inside our home directory. Go there with:
+```
+cd ~/garage
+```
+
+The tilde (press Alt-key + tilde-sign) is a sign for our home folder. And we want to go inside the garage folder, which is inside our home folder. We create now a file called "mycar.txt" and write "bmw" inside this file. Here we go:
+```
+echo "bmw" > mycar.txt
+```
+
+The echo command simply displays the word in quotes, in this case "bmw". The > character redirects the result ("bmw") into the file, which came behind the ">" sign. Btw: a single ">" always create an empty file, even when the file already exists. When you want to attach something to a file simply use ">>". Let's look into the file:
+```
+cat mycar.txt
+```
+
+We want to copy the file mycar.txt:
+```
+cp mycar.txt mybike.txt
+```
+
+And now we want to attach something to our new file:
+```
+echo "is not a car" >> mybike.txt
+```
+
+Check the content of our new file with:
+```
+cat mybike.txt
+```
+
+And check the content of our garage folder with:
+```
+ls -l
+```
