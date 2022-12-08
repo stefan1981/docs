@@ -191,3 +191,47 @@ sort | uniq -c | sort -bnr
 
 The last part sorts the output, groups unique lines and prefix them with the amount and finally sort them again
 with ignored leading blanks (-b), sort numeric (-n), in reverse order (-r)
+
+## CURL
+CURL is a mighty tool for transfering data to URLS. It supports a wide range of protocols.
+Lets have a closer look on some handy snippets for daily work on the commandline:
+Fetching content from a URL
+```
+curl http://www.myurl.com
+```
+
+When a page redirects to another location (the respondet http-status is somewhat 3xx)
+curl can follow the redirection with the -L (- -location) flag.
+```
+curl -L http://www.myurl.com
+```
+
+Want to see what the request and response headers like?
+It's as simple as using the -v (- -verbose) flag.
+```
+curl -v http://www.myurl.com
+```
+
+For POSTing data to an URL u can use the parameter -d (- -data) .
+```
+curl --data "param1=value1&param2=value2" http://www.myurl.com
+```
+
+You want to upload a file (image.jpg is located in the folder from where you run this command) to a php-script running at localhost/upload.php:
+```
+curl -F "data=@image.jpg" localhost/upload.php
+```
+
+a upload-script for taking the uploaded file and store it in a file - the filename is the current timestamp - looks like this:
+```
+<?php
+if (isset($_FILES)) {
+  move_uploaded_file($_FILES['data']['tmp_name'], date('YmdHis'));
+  }
+  ?>
+```
+
+This is for windows using the cmd. Parsing a folder recursively for all pdf files and send them as a POST request to a certain URI:
+```
+for /R %f in (*.pdf) do curl -F "data=@%f" www.mydomain.com/upload
+```
