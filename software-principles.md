@@ -110,23 +110,21 @@ Event storming is a management technique where domain-experts an developers toge
 # PHP version changes
 
 ## PHP 8.0 renewals
-- Release Notes PHP 8.0
-- - named arguments
-- - attributes
-- - constructor property promotion
-- - union types (public int|float $id)
-- - match expression (match)
-- - nullsafe operator ( $obj?->value )
-- - string to number comparison
-- - consistent type error
-- -
+- named arguments
+- attributes
+- constructor property promotion
+- union types (public int|float $id)
+- match expression (match)
+- nullsafe operator ( $obj?->value )
+- string to number comparison
+- consistent type error
+
 ## PHP 7.4 renewals
--  Release Notes PHP 7.4
-- - typed properties (public int $id)
-- - arrow functions
-- - ...
-- - null coalescing assignment operator ( ??= )
-- - unpacking inside arrays $fruits = ['banana', ...['one', two], 'melon']
-- - numeric literal seperator _
-- - ...
+- typed properties (public int $id)
+- arrow functions
+- ...
+- null coalescing assignment operator ( ??= )
+- unpacking inside arrays $fruits = ['banana', ...['one', two], 'melon']
+- numeric literal seperator _
+- ...
 
