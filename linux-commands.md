@@ -1,4 +1,4 @@
-# Easy to learn
+# Linux commands
 ```
 alias                make a commando alias
 apropos              search in manual
@@ -62,7 +62,7 @@ tmux                 screen splitter
 vim                  mighty editor
 ```
 
-# random commands
+# some common problem solutions
 Getting the size of all files and folders inside the current directory can be done by typing:
 ```
  ls | xargs du -s -BM
