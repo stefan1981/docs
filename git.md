@@ -31,66 +31,76 @@ head points to the most recent version of the current branch (this is master by 
 To get an first overview, which commands are provided by git you can use `git --help`
 Let’s have a look which git version we have installed with `git version`
 
-Cloning an environment from a remote-repository
+## Cloning an environment from a remote-repository
 Before you can start, you need to have a working git environment. Therefore we clone an existing project. Create a repository in bitbucket.org or github.com and clone it to your local filesystem. Therefore you go into a folder in which the root folder of the project should live and execute the git clone <repository-url> command. You find the repository-url after you created the repository in git or bitbucket. The command clone could look like this:
-
+```
 git clone git@bitbucket.org:sgbeck1981/githouse.git
-
+```
 A new folder with the repository name is created. The content of this (project) folder is now under version control. Inside the folder you will find a folder .git (this is where all the changes are stores) and eventually a .gitignore file (this file is for excluding files from being commited)
 
-Commiting your first changes to the repository
+## Commiting your first changes to the repository
 Now, that you have a working environment under source control, we learn the commands to bring your changes into the repository. Go into your working directory and create a file, insert some text and save it. Now you will stage this specific file with the command:
-
+```
 git add <filename>
+```
 
 To stage all changes or files you could use a “.” instead of the filename:
 
+```
 git add .
+```
 
 Now that you have your changes in the Index it’s time to commit them to your local-repository. Commits always need to have a small description of what you’ve done.
 
+```
 git commit -m “Describe the change”
+```
 
 The commands git add and git commit will be used very often in a row. There is a shorthand to execute both of them at the same time:
 
+```
 git commit -a -m “Describe the change”
+```
 
 All our changes are in the local-repository now. The last step would be to push the changes from your local-repository to the remote repository.
 
+```
 git push
-
+```
 
 That’s it! All your changes are in the remote-repository.
-Get changes from the repository
+
+## Get changes from the repository
 When you work in a team, other members will bring their changes also into the remote-repository. To stay up to date, you need to get thich changes into your local-repository. This can be achieved with the command:
-
+```
 git pull
+```
 
-
-
-Working with branches
+## Working with branches
 Working with branches allows you to handle a set of commits separated from the main branch. When your changes are working, you can merge your branch into the master branch. First have a look which branches are existing in your environment:
-
+```
 git branch
+```
 The branch with the asterisk is the branch you are currently using. You can always create a new branch with:
-
+```
 git branch <branch-name>
-
+```
 When you’ve created a new branch you are not automatically using this branch. To switch to that branch you can use:
-
+```
 git checkout <branch-name>
-
+```
 There is a shorthand for create a new branch and switch to it:
-
+```
 git checkout -b <branch-name>
-
+```
 When you have finished your changes in the branch you can merge it into your master branch. Therefore you must be inside your master branch and execute this command:
-
+```
 git merge <name-of-branch-to-merge>
-
+```
 If you don’t need a branch any more, you can delete it with: (attention) by using:
-
+```
 git branch -d <branch-name>
+```
 
 
 
@@ -99,32 +109,49 @@ git branch -d <branch-name>
 
 
 Create a fresh project under git version control:
+```
 mkdir myproj
 git init
+```
 
 Connect the local repository to a remote repository named origin
+```
 git remote add origin git@bitbucket.org:sgbeck1981/gittest.git
+```
 
 git branch --set-upstream-to=origin/master master
+```
 git pull origin master --allow-unrelated-histories
+```
 
 Show your remote repositories
+```
 git remote
+```
 
 removes changes that are not staged (git add)
+```
 git clean
+```
 
 removes all staged changes, that are not commited yet
+```
 git reset
+```
 
 reverts the last commit
+```
 git revert HEAD
+```
 
 checkout a new branch and switch to it
+```
 git branch new-branch
 git checkout new-branch
+```
 
 or shorthand
-
+```
 git checkout - new-branch
+```
 
