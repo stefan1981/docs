@@ -1,10 +1,13 @@
 # General config
 ### important entries for .bashrc or .zshrc                                                                                                                                    
 ```
+# 
 ns() {                                                                         
   kubectl config set-context --current --namespace=( >/dev/null
-  }
-  alias k='kubectl "--context=${KUBECTL_CONTEXT:-$(kubectl config current-context)}"'
+}
+
+# kubectl as shortcut
+alias k='kubectl "--context=${KUBECTL_CONTEXT:-$(kubectl config current-context)}"'
 ```
 
 # Nodes (no, nodes)
