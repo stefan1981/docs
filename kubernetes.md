@@ -1,9 +1,9 @@
 # General config
 ### important entries for .bashrc or .zshrc                                                                                                                                    
 ```
-# 
+# set the namespace
 ns() {                                                                         
-  kubectl config set-context --current --namespace=( >/dev/null
+  kubectl config set-context --current --namespace=$1 >/dev/null
 }
 
 # kubectl as shortcut
