@@ -90,6 +90,50 @@ k label pod whoami --overwrite app=lb-svc
 k get endpoint                                                # list all endpoints
 ```
 
+# Deployments
+
+# create a deployment and expose it with a service
+create a deployment file as yaml
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-nginx
+spec:
+  selector:
+    matchLabels:
+      run: my-nginx
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        run: my-nginx
+    spec:
+      containers:
+      - name: my-nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+```
+create the deployment from the file
+```
+k apply -f deployment.yaml
+```
+expose the deployment as service
+```
+k expose deployment/my-nginx
+```
+scale the deployment to three pods
+```
+k scale --replicas=3 deployments/my-nginx
+```
+inspect the service
+```
+k describe svc my-nginx
+```
+
+
+### 
 
 # General things
 ### access a service inside the kluster

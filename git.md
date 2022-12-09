@@ -152,6 +152,6 @@ git checkout new-branch
 
 or shorthand
 ```
-git checkout - new-branch
+git checkout -b new-branch
 ```
 
