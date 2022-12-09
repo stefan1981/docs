@@ -1,4 +1,4 @@
-# GENERAL CONFIG                                                                                                                                              
+# General config
 ### important entries for .bashrc or .zshrc                                                                                                                                    
 ```
 ns() {                                                                         
@@ -7,12 +7,12 @@ ns() {
   alias k='kubectl "--context=${KUBECTL_CONTEXT:-$(kubectl config current-context)}"'
 ```
 
-# NODES (no, nodes)
+# Nodes (no, nodes)
 ```
 k get no                                                    # get list of all nodes
 ```
 
-# NAMESPACES (ns, namespaces)
+# Namespaces (ns, namespaces)
 ```
 k get ns                                                    # get list of all namespaces
 k get namespaces                                            # get list of all namespaces
@@ -42,7 +42,7 @@ k run whoami2 --image bee42/whoami:2.2.0 --labels=run=whoami --dry-run=client -o
 k apply -f whoami-pod.yaml                                    # start a pod from a manifest file
 ```
 
-# SERVICE (svc, services)
+# Service (svc, services)
 service types:
 clusterip    = service is only reachable from within the cluster  
 nodeport     = expose service on each node at a static ip (the node port)  
@@ -80,13 +80,13 @@ k label pod whoami --overwrite app=lb-svc
 ```
 
 
-# ENDPOINTS (ep, endpoint)
+# Endpoints (ep, endpoint)
 ```
 k get endpoint                                                # list all endpoints
 ```
 
 
-# GENERAL THINGS
+# General things
 ### access a service inside the kluster
 ```
 k run shell --tty -i --image alpine -- /bin/sh
