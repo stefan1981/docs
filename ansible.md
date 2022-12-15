@@ -42,6 +42,11 @@ edit encrypted files
 ansible-vault edit encrypted-file.yml
 ```
 
+encrypt an existing files
+```
+ansible-vault encrypt file.yml
+```
+
 decrypt a encrypted files
 ```
 ansible-vault decrypt encrypted-file.yml
