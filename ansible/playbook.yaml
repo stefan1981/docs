@@ -9,23 +9,33 @@
    - name: Print message
      ansible.builtin.debug:
        var: playbook_dir
-   # files and folders
+   # *** files and folders ***********************************
    - name: create a folder
      file:
        path: ansible/test
        state: directory
-   - name: create a file
+
+   - name: create file
      file:
-       path: ansible/test/text.txt
+       path: ansible/test/text1.txt
        state: touch
-   - name: create a file with content
+
+   - name: create file with content
      copy:
        dest: ansible/test/text2.txt
        content: |
+           ----------
            Zeile1
-           Zeile2
+           Zeile4
            {{ example_text }}
-   # pip install
+           ---------
+
+   - name: copy file from source-file
+     copy:
+       src: ./source.txt
+       dest: ansible/test/text3.txt
+
+   # *** pip install *****************************************
    - name: install pip modul names with specific version
      pip:
        name: '{{ pip_module }}==0.2'
