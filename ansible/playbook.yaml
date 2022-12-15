@@ -35,6 +35,12 @@
        src: ./source.txt
        dest: ansible/test/text3.txt
 
+   - name: copy a encrypted source-file to a decrypted target-file
+     copy:
+       src: ./encrypted-source.txt
+       dest: ansible/test/text4.txt
+       decrypt: yes
+
    # *** pip install *****************************************
    - name: install pip modul names with specific version
      pip:
