@@ -4,8 +4,9 @@
 A collection of cheat-sheets for various technologies and tools  
 
 [Ansible](https://github.com/stefan1981/docs/blob/main/ansible.md)  
-[Linux commands](https://github.com/stefan1981/docs/blob/main/linux-commands.md)  
 [ffmpeg](https://github.com/stefan1981/docs/blob/main/ffmpeg.md)  
+[Git tutorial](https://github.com/stefan1981/docs/blob/main/git.md)  
+[Linux commands](https://github.com/stefan1981/docs/blob/main/linux-commands.md)  
 [Regular-expressions](https://github.com/stefan1981/docs/blob/main/regular-expressions.md)  
 [sed - stream editor](https://github.com/stefan1981/docs/blob/main/sed.md)  
 [Software-Development principles](https://github.com/stefan1981/docs/blob/main/software-principles.md)  
