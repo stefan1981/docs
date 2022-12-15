@@ -32,6 +32,9 @@ ansible virtualmachines -m ping -i inventory.yaml
 ```
 
 ## Encryption
+interesting links:
+[encryption basics](https://ahelpme.com/software/ansible/ansible-using-ansible-vault-with-copy-module-to-decrypt-on-the-fly-files/)
+
 create an encrypted file
 ```
 ansible-vault create encrypted-file.yml
