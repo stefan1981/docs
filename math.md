@@ -2,14 +2,14 @@
 
 ## Ableitungen Beispiele
 
-Beispiel 1 (Ableitung von 0):  
+Aufgabe 1. (Gesucht ist die erste Ableitung von 0):  
 $$f(x)=0$$
-<ins>$$f^{\prime}(x)=0$$</ins>
+$$\doubleunderline{f^{\prime}(x)=0}$$
 
-Beispiel 2 (Ableitung von 1):  
+Aufgabe 2 (Gesucht ist die erste Ableitung von 1):  
 $$f(x)=1$$
 $$f^{\prime}(x)=0$$
 
-Beispiel 2 (Ableitung einer einzelnen Konstante):  
+Aufgabe 3 (Gesucht ist di erste Ableitung einer einzelnen Konstante):  
 $$f(x)=24$$
 $$f^{\prime}(x)=0$$
