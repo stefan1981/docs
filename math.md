@@ -23,6 +23,7 @@ $$\underline{f^{\prime}(x)=0}$$
 Aufgabe 4: (Gesucht ist die erste Ableitung einer Variable):  
 $$f(x)=x$$
 $$\underline{f^{\prime}(x)=1}$$
+
 ---
 
 Aufgabe 6: (Gesucht ist die erste Ableitung einer quadrierten Variable):  
