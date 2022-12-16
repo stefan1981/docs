@@ -29,3 +29,9 @@ $$\underline{f^{\prime}(x)=1}$$
 Aufgabe 6: (Gesucht ist die erste Ableitung einer quadrierten Variable):  
 $$f(x)=x^2$$
 $$\underline{f^{\prime}(x)=2x}$$
+
+---
+
+Aufgabe 7: (Gesucht ist die erste Ableitung):  
+$$f(x)=2x$$
+$$\underline{f^{\prime}(x)=2}$$
