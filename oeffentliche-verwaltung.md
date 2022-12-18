@@ -30,6 +30,9 @@
 ## KDN- Dachverband kommunaler IT-Dienstleister
 [KDN](https://www.kdn.de/)  
 
+## Koordinierungsstelle für IT-Standards
+[KoSIT]()https://www.xoev.de/  
+
 ## LeiKa - Leistungskatalog der öffentlichen Verwaltung
 [Leistungen des LeiKa](https://www.xrepository.de/details/urn:de:gkleika:leika:leistung)  
 
@@ -45,6 +48,7 @@
 
 ## XML in der öffentlichen Verwaltung
 [XöV](https://www.itzbund.de/DE/itloesungen/standardloesungen/xoev/xoev.html)  
+[XRepository](https://www.xrepository.de/)  
 
 ## Zentrum für digitale Souveränität
 [Zentrum digitale Souveränität](https://www.cio.bund.de/Webs/CIO/DE/digitale-loesungen/digitale-souveraenitaet/zentrum-fuer-digitale-souveraenitaet/zentrum-fuer-digitale-souveraenitaet-node.html)  
