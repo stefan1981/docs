@@ -1,7 +1,7 @@
 # Öffentliche Verwaltung Bergifflichkeiten
 
 ## Bundesministerium für Digitales und Verkehr
-[BMDV](https://bmdv.bund.de/)
+[BMDV](https://bmdv.bund.de/)  
 
 ## Bundesamt für Sicherheit in der Informationstechnik
 [BSI](bsi.bund.de)  
@@ -9,21 +9,41 @@
 ## Der Beauftragte der Bundesregierung für Informationstechnik
 [cio.bund.de](https://www.cio.bund.de/)  
 
-## DIgitalstrategie Deutschland
-[DIgitalstrategie Deutschland](https://digitalstrategie-deutschland.de/)  
+## Digitalstrategie Deutschland
+[Digitalstrategie Deutschland](https://digitalstrategie-deutschland.de/)  
 
-## FITKO
-Föderale IT Kooperation 
+## Ergänzende Vertragsbedingungen IT
+[EVB-IT](https://www.cio.bund.de/Webs/CIO/DE/digitale-loesungen/it-beschaffung/evb-it-und-bvb/evb-it/evb-it-node.html)
+
+## Föderale IT Kooperation 
+[FITKO](https://www.fitko.de/)  
+
+## Index für digitale Wirtschaft und Gesellschaft
+[DESI](https://digital-strategy.ec.europa.eu/)  
+
+## Informations Technik Zentrum Bund
+[ITZB](https://www.itzbund.de/)  
+
+## IT- Planungsrat
+[IT-Planungsrat](https://www.it-planungsrat.de/)  
+
+## KDN- Dachverband kommunaler IT-Dienstleister
+[KDN](https://www.kdn.de/)  
+
+## Leistungskatalog der öffentlichen Verwaltung
+[LeiKa]()
 
 ## OpenCoDE
+[OpenCode](https://opencode.de/de)  
 
-## OSCI
-Online Services Computer Interface
+## Online Services Computer Interface
+[OSCI](https://www.itzbund.de/DE/itloesungen/standardloesungen/osci/osci.html)  
 
-## XÖV
-XML in der öffentlichen Verwaltung
+## XML in der öffentlichen Verwaltung
+[XöV](https://www.itzbund.de/DE/itloesungen/standardloesungen/xoev/xoev.html)  
 
 ## Zentrum für digitale Souveränität
+[Zentrum digitale Souveränität](https://www.cio.bund.de/Webs/CIO/DE/digitale-loesungen/digitale-souveraenitaet/zentrum-fuer-digitale-souveraenitaet/zentrum-fuer-digitale-souveraenitaet-node.html)  
 
 
 
