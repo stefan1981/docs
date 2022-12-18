@@ -30,14 +30,18 @@
 ## KDN- Dachverband kommunaler IT-Dienstleister
 [KDN](https://www.kdn.de/)  
 
-## Leistungskatalog der öffentlichen Verwaltung
-[LeiKa]()
+## LeiKa - Leistungskatalog der öffentlichen Verwaltung
+[Leistungen des LeiKa](https://www.xrepository.de/details/urn:de:gkleika:leika:leistung)  
 
 ## OpenCoDE
 [OpenCode](https://opencode.de/de)  
 
 ## Online Services Computer Interface
 [OSCI](https://www.itzbund.de/DE/itloesungen/standardloesungen/osci/osci.html)  
+
+## OZG - Online Zugangs Gesetz
+[OZG-Leistungen](https://ozg.kdn.de/ozg-leistungen)  
+[Bundesweite OZG Leistungen](https://www.onlinezugangsgesetz.de/Webs/OZG/DE/themen/digitalisierungsprogramm-bund/ozg-bund/ozg-bund-node.html)  
 
 ## XML in der öffentlichen Verwaltung
 [XöV](https://www.itzbund.de/DE/itloesungen/standardloesungen/xoev/xoev.html)  
