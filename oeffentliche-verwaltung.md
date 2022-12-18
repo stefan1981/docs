@@ -45,6 +45,9 @@
 ## LeiKa - Leistungskatalog der öffentlichen Verwaltung
 [Leistungen des LeiKa](https://www.xrepository.de/details/urn:de:gkleika:leika:leistung)  
 
+## Ministerium für Wirtschaft, Industrie, Klimaschutz und Energie des Landes Nordrhein-Westfalen
+[MWIKE](https://www.wirtschaft.nrw/)  
+
 ## OpenCoDE
 [OpenCode](https://opencode.de/de)  
 
