@@ -1,4 +1,4 @@
-# Öffentliche Verwaltung Bergifflichkeiten
+# Bergifflichkeiten für die digitale Verwaltung (Bund und NRW)
 
 ## Bundesministerium für Digitales und Verkehr
 [BMDV](https://bmdv.bund.de/)  
@@ -14,6 +14,9 @@
 
 ## Digitalstrategie Deutschland
 [Digitalstrategie Deutschland](https://digitalstrategie-deutschland.de/)  
+
+## Einer für Alle Prinzip
+[Efa](https://www.onlinezugangsgesetz.de/Webs/OZG/DE/grundlagen/nachnutzung/efa/efa-node.html)  
 
 ## Ergänzende Vertragsbedingungen IT
 [EVB-IT](https://www.cio.bund.de/Webs/CIO/DE/digitale-loesungen/it-beschaffung/evb-it-und-bvb/evb-it/evb-it-node.html)
