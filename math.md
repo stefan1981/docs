@@ -38,7 +38,7 @@ Unsere quadratische Gleichung lautet:
 $$3x^2+12x-9=0$$
 
 Nun müssen wir die Werte der quadratischen Gleichung in die a-b-c-Formel einsetzen:  
-$$x_1,_2=\frac{-12 \pm \sqrt{12^2 - 4*3*-9}}{2*3}$$
+$$x_1,_2=\frac{-12\pm\sqrt{12^2-4*3*-9}}{2*3}$$
 
 
 
