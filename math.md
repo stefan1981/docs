@@ -40,6 +40,12 @@ $$2x^2-4x-16=0$$
 Jetzt müssen wir die Werte einsetzen:  
 $$x_1,_2=\frac{4 \pm \sqrt{16 + 128}}{4}$$
 
+$$x_1,_2=\frac{4 \pm 12}{4}$$
+
+$$x_1=\frac{4 + 12}{4} = 4$$
+
+$$x_2=\frac{4 - 12}{4} = -2$$
+
 
 ## Beispiel: pq-Formel
 Die pq-Formel lautet wie folgt:  
