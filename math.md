@@ -32,7 +32,7 @@ Für beide Formen gibt es eine entsprechende Formel um diese zu lösen
 
 ## Beispiel: a-b-c-Formel
 
-$$x_1_,_2$$
+$$x_1,_2=-b \pm \sqrt{b^2 - 4ac}$$
 $$3x^2+12x-9=0$$
 
 
