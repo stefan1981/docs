@@ -42,9 +42,9 @@ $$x_1,_2=\frac{4 \pm \sqrt{16 + 128}}{4}$$
 
 $$x_1,_2=\frac{4 \pm 12}{4}$$
 
-$$\underline{x_1=\frac{4 + 12}{4} = 4}$$
+$$\underline{x_1= 4}$$
 
-$$\underline{x_2=\frac{4 - 12}{4} = -2}$$
+$$\underline{x_2= -2}$$
 
 
 ## Beispiel: pq-Formel
