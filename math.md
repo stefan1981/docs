@@ -43,10 +43,10 @@ $$x_1,_2=-\frac{p}{2}\pm\sqrt{(\frac{p}{2})^2-q}$$
 
 
 Unsere quadratische Gleichung lautet:  
-$$x^2+4x-3=0$$
+$$x^2-13x+30=0$$
 
 Nun müssen wir die Werte der quadratischen Gleichung in die a-b-c-Formel einsetzen:  
-$$x_1,_2=-\frac{p}{2}\pm\sqrt{(\frac{p}{2})^2-q}$$
+$$x_1,_2=-6.5\pm\sqrt{2^2-q}$$
 
 
 
