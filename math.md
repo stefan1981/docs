@@ -1,6 +1,6 @@
 # Mathematik
 
-## Lineare Gleichungen
+## Lineare Gleichungen (Mit einer Unbekannten)
 Lineare Gleichungen treten Beispielsweise in der Form $2x+4=8$ auf.  
 Charakteristisch für Lineare Gleichungen ist, dass die Unbekannte $x$ immer nur in erster Potenz auftritt.  
 Trägt man das Schaubild einer Linearen Gleichung in ein karthesisches Koordinatensystem erhält man  
@@ -17,6 +17,10 @@ $$x=8\quad|:2$$
 
 
 ---
+
+## Quadratische Gleichungen
+Quadratische Gleichungen besitzen immer eine Komponente mit einer quadrierten Unbekannten.  
+Ein Beispiel hierfür wäre: $2x^2+16x+14=0$
 
 ## Ableitungen Beispiele
 
