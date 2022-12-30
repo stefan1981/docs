@@ -25,13 +25,19 @@ Die quadratische Gleichung gibt es in unterschiedlichen Formen:
 - Allgemeine Form: $ax^2+bx+c=0$
 - Normalform: $x^2+px+q$
 
+Für beide Formen gibt es eine entsprechende Formel um diese zu lösen
+
+- Allgemeine Form wird mit der a-b-c-Formel (Mitternachtsformel) gelößt
+- Normalform wird mit der pq formel gelößt
+
+## Beispiel: a-b-c-Formel
+
+$$x_1,2$$
+$$3x^2+12x-9=0$$
 
 
-- pq-Formel
-- Allgemeine quadratische Gleichungen (a-b-c-Formel), "Mitternachtsformel"
+## Beispiel: pq-Formel
 
-## pq-Formel
-Die pq-Formel kann dann angewendet werden, wenn die quadratische Gleichung in der Normalform vorliegt, d.h
 
 ## Ableitungen Beispiele
 
