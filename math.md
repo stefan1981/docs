@@ -44,7 +44,7 @@ $$x_1,_2=\frac{4 \pm 12}{4}$$
 
 $$\underline{x_1= 4}$$
 
-$$\underline{x_2= -2}$$
+$$\boxed{\underline{x_2= -2}}$$
 
 
 ## Beispiel: pq-Formel
