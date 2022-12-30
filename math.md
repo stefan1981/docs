@@ -44,7 +44,7 @@ $$x_1,_2=\frac{-12 \pm \sqrt{144 - -108}}{6}$$
 
 ## Beispiel: pq-Formel
 Die pq-Formel lautet wie folgt:  
-$$x_1,_2=-\frac{p}{2}\pm\sqrt{(\frac{p}{2})^2-q}$$
+$$x_1,_2=-\frac{p}{2}\pm\sqrt{\frac({p}{2})^2-q}$$
 
 
 ## Ableitungen Beispiele
