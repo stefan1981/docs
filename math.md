@@ -30,7 +30,7 @@ Für beide Formen gibt es eine entsprechende Formel um diese zu lösen
 - Allgemeine Form wird mit der a-b-c-Formel (Mitternachtsformel) gelößt
 - Normalform wird mit der pq formel gelößt
 
-## Beispiel: a-b-c-Formel
+### Beispiel: a-b-c-Formel
 Die a-b-c-Formel lautet wie folgt:  
 $$\boxed{x_1,_2=\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$$
 
@@ -47,7 +47,7 @@ $$\underline{x_1= 4}$$
 $$\underline{x_2= -2}$$
 
 
-## Beispiel: pq-Formel
+### Beispiel: pq-Formel
 Die pq-Formel lautet wie folgt:  
 $$\boxed{x_1,_2=-\frac{p}{2}\pm\sqrt{(\frac{p}{2})^2-q}}$$
 
