@@ -4,11 +4,9 @@
 Lineare Gleichungen treten Beispielsweise in der Form $2x+4=8$ auf.  
 Charakteristisch für Lineare Gleichungen ist, dass die Unbekannte $x$ immer nur in erster Potenz auftritt.  
 Trägt man das Schaubild einer Linearen Gleichung in ein karthesisches Koordinatensystem erhält man  
-immer eine Gerade. Lineare Gleichungen können auf mehrere Arten gelößt werden:
+immer eine Gerade. Lineare Gleichungen werden mittels der Aquivalenzumformung gelößt.
 
-- Äquivalenzumformung
--
-### Beispiel Äquivalenz Umformung
+### Beispiel: Äquivalenz Umformung
 Bei der Äquivalenzumformung werden beide Seiten einer Gleichung so lange veröndert, bis die Unbekannte Gariable isoliert ist.
 
 $$2x+5=21\quad|-5$$  
