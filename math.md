@@ -34,11 +34,6 @@ Für beide Formen gibt es eine entsprechende Formel um diese zu lösen
 Die a-b-c-Formel lautet wie folgt:  
 $$x_1,_2=\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
-Unsere quadratische Gleichung lautet:  
-$$3x^2+12x-9=0$$
-
-Nun müssen wir die Werte der quadratischen Gleichung in die a-b-c-Formel einsetzen:  
-$$x_1,_2=\frac{-12 \pm \sqrt{144 - -108}}{6}$$
 
 
 
@@ -47,6 +42,11 @@ Die pq-Formel lautet wie folgt:
 $$x_1,_2=-\frac{p}{2}\pm\sqrt{(\frac{p}{2})^2-q}$$
 
 
+Unsere quadratische Gleichung lautet:  
+$$x^2+4x-3=0$$
+
+Nun müssen wir die Werte der quadratischen Gleichung in die a-b-c-Formel einsetzen:  
+$$x_1,_2=-\frac{p}{2}\pm\sqrt{(\frac{p}{2})^2-q}$$
 
 
 
