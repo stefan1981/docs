@@ -32,7 +32,7 @@ Für beide Formen gibt es eine entsprechende Formel um diese zu lösen
 
 ## Beispiel: a-b-c-Formel
 Die a-b-c-Formel lautet wie folgt:  
-$$x_1,_2=\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+$$\boxed{x_1,_2=\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}}$$
 
 Unsere quadratische Gleichung lautet:  
 $$2x^2-4x-16=0$$
@@ -44,12 +44,12 @@ $$x_1,_2=\frac{4 \pm 12}{4}$$
 
 $$\underline{x_1= 4}$$
 
-$$\boxed{\underline{x_2= -2}}$$
+$$\underline{x_2= -2}$$
 
 
 ## Beispiel: pq-Formel
 Die pq-Formel lautet wie folgt:  
-$$x_1,_2=-\frac{p}{2}\pm\sqrt{(\frac{p}{2})^2-q}$$
+$$\boxed{x_1,_2=-\frac{p}{2}\pm\sqrt{(\frac{p}{2})^2-q}}$$
 
 
 Unsere quadratische Gleichung lautet:  
