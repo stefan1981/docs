@@ -1,13 +1,13 @@
 # Mathematik
 
 ## Lineare Gleichungen (Mit einer Unbekannten)
-Lineare Gleichungen treten Beispielsweise in der Form $2x+4=8$ auf.  
+Lineare Gleichungen treten beispielsweise in der Form $2x+4=8$ auf.  
 Charakteristisch für Lineare Gleichungen ist, dass die Unbekannte $x$ immer nur in erster Potenz auftritt.  
 Trägt man das Schaubild einer Linearen Gleichung in ein karthesisches Koordinatensystem erhält man  
 immer eine Gerade. Lineare Gleichungen werden mittels der Aquivalenzumformung gelößt.
 
 ### Beispiel: Äquivalenz Umformung
-Bei der Äquivalenzumformung werden beide Seiten einer Gleichung so lange veröndert, bis die Unbekannte Gariable isoliert ist.
+Bei der Äquivalenzumformung werden beide Seiten einer Gleichung so lange verändert, bis die Unbekannte Variable isoliert ist.
 
 $$2x+5=21\quad|-5$$  
 
@@ -20,7 +20,18 @@ $$x=8\quad|:2$$
 
 ## Quadratische Gleichungen
 Quadratische Gleichungen besitzen immer eine Komponente mit einer quadrierten Unbekannten.  
-Ein Beispiel hierfür wäre: $2x^2+16x+14=0$
+Die quadratische Gleichung gibt es in unterschiedlichen Formen:
+
+- Allgemeine Form: $ax^2+bx+c=0$
+- Normalform: $x^2+px+q$
+
+
+
+- pq-Formel
+- Allgemeine quadratische Gleichungen (a-b-c-Formel), "Mitternachtsformel"
+
+## pq-Formel
+Die pq-Formel kann dann angewendet werden, wenn die quadratische Gleichung in der Normalform vorliegt, d.h
 
 ## Ableitungen Beispiele
 
@@ -36,7 +47,7 @@ $$\underline{f^{\prime}(x)=0}$$
 
 ---
 
-Aufgabe 3: (Gesucht ist di erste Ableitung einer einzelnen Konstante):  
+Aufgabe 3: (Gesucht ist die erste Ableitung einer einzelnen Konstante):  
 $$f(x)=24$$
 $$\underline{f^{\prime}(x)=0}$$
 
