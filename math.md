@@ -34,7 +34,11 @@ Für beide Formen gibt es eine entsprechende Formel um diese zu lösen
 Die a-b-c-Formel lautet wie folgt:  
 $$x_1,_2=\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
+Unsere quadratische Gleichung lautet:  
+$$2x^2-4x-16=0$$
 
+Jetzt müssen wir die Werte einsetzen:  
+$$x_1,_2=\frac{4 \pm \sqrt{16 + 128}}{4}$$
 
 
 ## Beispiel: pq-Formel
@@ -45,7 +49,7 @@ $$x_1,_2=-\frac{p}{2}\pm\sqrt{(\frac{p}{2})^2-q}$$
 Unsere quadratische Gleichung lautet:  
 $$x^2-13x+30=0$$
 
-Nun müssen wir die Werte der quadratischen Gleichung in die a-b-c-Formel einsetzen:  
+Nun müssen wir die Werte der quadratischen Gleichung in die pq-Formel einsetzen:  
 $$x_1,_2=6,5\pm\sqrt{6,5^2-30}$$
 
 $$x_1,_2=6,5\pm\sqrt{12,25}$$
