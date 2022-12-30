@@ -31,8 +31,10 @@ Für beide Formen gibt es eine entsprechende Formel um diese zu lösen
 - Normalform wird mit der pq formel gelößt
 
 ## Beispiel: a-b-c-Formel
-
+Die a-b-c-Formel lautet wie folgt:  
 $$x_1,_2=\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+Unsere quadratische Gleichung lautet:  
 $$3x^2+12x-9=0$$
 
 
