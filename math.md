@@ -11,7 +11,7 @@ immer eine Gerade. Lineare Gleichungen können auf mehrere Arten gelößt werden
 ### Beispiel Äquivalenz Umformung
 Bei der Äquivalenzumformung werden beide Seiten einer Gleichung so lange veröndert, bis die Unbekannte Gariable isoliert ist.
 
-$$2x+5=12   | -5$$
+$$2x+5=12   |-5$$
 
 ---
 
