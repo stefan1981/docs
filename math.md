@@ -1,10 +1,12 @@
 # Mathematik
 
 ## Lineare Gleichungen
-Lineare Gleichungen treten Beispielsweise in der Form $2x+4=8$ auf.
+Lineare Gleichungen treten Beispielsweise in der Form $2x+4=8$ auf.  
 Charakteristisch für Lineare Gleichungen ist, dass die Unbekannte $x$ immer nur in erster Potenz auftritt.  
 Trägt man das Schaubild einer Linearen Gleichung in ein karthesisches Koordinatensystem erhält man  
-immer eine Gerade.
+immer eine Gerade. Lineare Gleichungen können auf mehrere Arten gelößt werden:
+
+- Äquivalenzumformung
 
 ---
 
