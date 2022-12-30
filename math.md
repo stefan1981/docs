@@ -46,9 +46,15 @@ Unsere quadratische Gleichung lautet:
 $$x^2-13x+30=0$$
 
 Nun müssen wir die Werte der quadratischen Gleichung in die a-b-c-Formel einsetzen:  
-$$x_1,_2=-6,5\pm\sqrt{6,5^2-30}$$
+$$x_1,_2=6,5\pm\sqrt{6,5^2-30}$$
 
-$$x_1,_2=-6,5\pm\sqrt{6,5^2-30}$$
+$$x_1,_2=6,5\pm\sqrt{12,25}$$
+
+$$x_1,_2=6,5\pm\3,5$$
+
+$$\underline{x_1=6,5 + 3,5 = 10}$$
+
+$$\underline{x_2=6,5 - 3,5 = 3}$$
 
 
 
