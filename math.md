@@ -1,7 +1,7 @@
 # Mathematik
 
 ## Lineare Gleichungen
-Lineare Gleichungen sind Gleichungen der Form $$2x+4=8$$  
+Lineare Gleichungen sind Gleichungen der Form $2x+4=8$  
 Charakteristisch für Lineare Gleichungen ist, dass die Unbekannte $$x$$ immer nur in erster Potenz auftritt.
 
 ---
