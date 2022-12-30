@@ -7,6 +7,11 @@ Trägt man das Schaubild einer Linearen Gleichung in ein karthesisches Koordinat
 immer eine Gerade. Lineare Gleichungen können auf mehrere Arten gelößt werden:
 
 - Äquivalenzumformung
+-
+### Beispiel Äquivalenz Umformung
+Bei der Äquivalenzumformung werden beide Seiten einer Gleichung so lange veröndert, bis die Unbekannte Gariable isoliert ist.
+
+$$2x+5=12   | -5$$
 
 ---
 
