@@ -30,6 +30,16 @@ For “private” usage (to learn and play), there are bare-metal-environments l
 or you can use an online playground:
 - Killercoda Interactive Environments )
 
+## Best practices
+- use namespaces
+- use liveness probes and readiness probes
+- use resource limits and resource requests
+- use deployments
+- use role-based access control (RBAC)
+- use a managed Kubernetes service
+- keep your containers small
+- label your objects
+
 
 # General config
 ### important entries for .bashrc or .zshrc                                                                                                                                    
