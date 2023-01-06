@@ -1,13 +1,34 @@
 # Kubernetes 
 
 # General intruduction
-##Some basis information about Kubernetes
+## Some basis information about Kubernetes
 - Kubernetes is among the largest open-source projects in the world
 - It has a huge ecosystem of tools and applications.
 - Kubernetes (Greek: helmsman (Steuerman)), often you will find the term k8s
 - k8s was invented by Google and released in 2014 as open-source
 - Kubernetes is a “Container Orchestration platform”
 - maintained by the Cloud Native Computing Foundation (CNCF) a subsidiary of the Linux Foundation
+
+## What preconditions you need to work with Kubernetes ?
+- Solid understanding of Linux commands is a big plus (Recommendation: run k8s on Linux)
+- you need to have a solid understanding of container technologies
+(Docker, Dockerfiles, Container-Repository)
+- You should have a basic understanding of networks, DNS, routing and load balancing
+- Understand YAML files
+
+## Which Kubernetes Version should I use ?
+For professional usage you likely use one of the widely used managed service from the hyperscalers (AWS, Azure, Google Cloud platform)  
+- Google Kubernetes Engine (GKE, 
+- Azure Kubernetes Service (AKS),
+- Amazon Elastic Kubernetes Service (EKS)
+  
+For “private” usage (to learn and play), there are bare-metal-environments like:  
+- k3s
+- microk8s
+- minicube
+  
+or you can use an online playground:
+- Killercoda Interactive Environments )
 
 
 # General config
