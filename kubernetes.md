@@ -1,5 +1,15 @@
 # Kubernetes 
 
+# General intruduction
+##Some basis information about Kubernetes
+- Kubernetes is among the largest open-source projects in the world
+- It has a huge ecosystem of tools and applications.
+- Kubernetes (Greek: helmsman (Steuerman)), often you will find the term k8s
+- k8s was invented by Google and released in 2014 as open-source
+- Kubernetes is a “Container Orchestration platform”
+- maintained by the Cloud Native Computing Foundation (CNCF) a subsidiary of the Linux Foundation
+
+
 # General config
 ### important entries for .bashrc or .zshrc                                                                                                                                    
 ```
