@@ -43,43 +43,44 @@ or you can use an online playground:
 ## Links
 ### Kubernetes as managed services
 https://aws.amazon.com/de/eks/                                     EKS in the AWS Cloud
+  
 https://azure.microsoft.com/en-us/products/kubernetes-service/     Azure k8s service
 
 
 ### Kubernetes Distributions (for testing and learning)
-https://k3s.io/                                                    K3S
-https://minikube.sigs.k8s.io/docs/                                 Minicube
-https://microk8s.io/                                               MicroK8S
-https://kind.sigs.k8s.io/                                          Kind / k8s in Docker
-https://killercoda.com/                                            k8s online playground
+https://k3s.io/                                                    K3S  
+https://minikube.sigs.k8s.io/docs/                                 Minicube  
+https://microk8s.io/                                               MicroK8S  
+https://kind.sigs.k8s.io/                                          Kind / k8s in Docker  
+https://killercoda.com/                                            k8s online playground  
 
 
 ### Documentation
-https://kubernetes.io/docs/home/                                   General Documentation
-https://gateway-api.sigs.k8s.io/                                   k8s Gateway API
-https://learnk8s.io/troubleshooting-deployments                    Troubledhooting the visual way
+https://kubernetes.io/docs/home/                                   General Documentation  
+https://gateway-api.sigs.k8s.io/                                   k8s Gateway API  
+https://learnk8s.io/troubleshooting-deployments                    Troubledhooting the visual way  
 
 
 ### Kubernetes Management tools Tools
-https://k8slens.dev/                                               Lens, a Kubernetes IDE
-https://k9scli.io/                                                 k8s CLI
+https://k8slens.dev/                                               Lens, a Kubernetes IDE  
+https://k9scli.io/                                                 k8s CLI  
 
 
 ### Kubernetes Ecosystem
-https://artifacthub.io/                                            Helm Charts (Package manager for helmfiles)
-https://operatorhub.io/                                            k8s Operators
-https://www.kubeflow.org/                                          Machine learning on k8s
-https://krew.sigs.k8s.io/                                          Plugin manager (ns, tree, neat, ...)
-https://github.com/stackrox/kube-linter                            Checks YAML files for best practices
-https://argoproj.github.io/argo-workflows/                         Run workflows in k8s
-https://velero.io/                                                 Backup klusters and resources
+https://artifacthub.io/                                            Helm Charts (Package manager for helmfiles)  
+https://operatorhub.io/                                            k8s Operators  
+https://www.kubeflow.org/                                          Machine learning on k8s  
+https://krew.sigs.k8s.io/                                          Plugin manager (ns, tree, neat, ...)  
+https://github.com/stackrox/kube-linter                            Checks YAML files for best practices  
+https://argoproj.github.io/argo-workflows/                         Run workflows in k8s  
+https://velero.io/                                                 Backup klusters and resources  
 
 
 ### Other stuff
-Service Mesh (Istio, Linkerd)
-Open Policy Framework
-Krew NodeShell
-CEPH, Longhorn, openEbs, clusterFs (the easiest)                   Shared Filesystems
+Service Mesh (Istio, Linkerd)  
+Open Policy Framework  
+Krew NodeShell  
+CEPH, Longhorn, openEbs, clusterFs (the easiest) Shared Filesystems  
 
 
 # General config
