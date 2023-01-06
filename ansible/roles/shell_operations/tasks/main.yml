@@ -1,0 +1,5 @@
+
+ - name: execute a shell command with pipes and file redirection
+   shell:
+      cmd: echo "hallo" | awk '{ print toupper($0) }' > {{ demo_folder }}/shell_created_file.txt
+

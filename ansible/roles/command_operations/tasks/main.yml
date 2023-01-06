@@ -1,0 +1,4 @@
+
+ - name: execute command
+   command:
+       argv: date

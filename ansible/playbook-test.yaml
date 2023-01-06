@@ -11,6 +11,8 @@
       #      - role: vault_operations
       #      - role: pip_operations
       #      - role: apt_operations
+      #      - role: shell_operations
+      - role: command_operations
 
   tasks:
      - name: Print message
