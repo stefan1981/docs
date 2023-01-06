@@ -109,6 +109,7 @@ k create ns test01                                          # create namespace t
 k delete ns test01                                          # delete namespace test01
 k config view                                               # show the current namespace
 k config set-context --current --namespace=test01           # set namespace to test01
+k delete all --all                                          # clear everything inside the current namespace (caution!)
 ```
 
 # PODS (pods)
