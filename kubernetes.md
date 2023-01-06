@@ -67,6 +67,7 @@ https://k9scli.io/                                                 k8s CLI
 
 
 ### Kubernetes Ecosystem
+https://github.com/kubernetes/dashboard                            Kubernetes Dashboard
 https://artifacthub.io/                                            Helm Charts (Package manager for helmfiles)  
 https://operatorhub.io/                                            k8s Operators  
 https://www.kubeflow.org/                                          Machine learning on k8s  
