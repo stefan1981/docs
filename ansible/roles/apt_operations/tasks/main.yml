@@ -1,0 +1,9 @@
+
+ - name: install programm with apt
+   apt:
+       name: 'cmatrix'
+
+ - name: remove program with apt
+   apt:
+       name: 'cmatrix'
+       state: absent

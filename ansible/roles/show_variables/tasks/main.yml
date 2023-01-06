@@ -1,0 +1,2 @@
+- name: Print message in role
+  debug: msg="I came from a role and can show {{ global_text }}"

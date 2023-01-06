@@ -1,0 +1,12 @@
+- name: My first play
+  hosts: virtualmachines
+  vars:
+      pip_module: names
+      example_text: test123
+
+  tasks:
+   - name: Ping my hosts
+     ansible.builtin.ping:
+   - name: Print message
+     ansible.builtin.debug:
+       var: playbook_dir

@@ -1,0 +1,6 @@
+
+ - name: copy a encrypted source-file to a decrypted target-file
+   copy:
+       src: ./encrypted-source.txt
+       dest: "{{ demo_folder }}/04_file_with_decrypted_content.txt"
+       decrypt: yes

@@ -1,0 +1,9 @@
+
+ - name: install pip modul names with specific version
+   pip:
+       name: 'names==0.2'
+
+ - name: remove pip module
+   pip:
+       name: 'names'
+       state: absent

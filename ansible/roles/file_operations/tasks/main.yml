@@ -1,0 +1,18 @@
+
+ - name: Create a file
+   file:
+       path: "{{ demo_folder }}/01_empty_file.txt"
+       state: touch
+
+ - name: Create a file with inline content
+   copy:
+       dest: "{{ demo_folder }}/02_file_with_inline_content.txt"
+       content: |
+           ----------
+           Zeile1
+           Zeile4
+           ---------
+ - name: Create a files as a copy from a given file
+   copy:
+       src: ./source.txt
+       dest: "{{ demo_folder }}/03_file_from_source.txt"

@@ -1,0 +1,4 @@
+- name: Create folder
+  file:
+    path: "{{demo_folder}}"
+    state: directory

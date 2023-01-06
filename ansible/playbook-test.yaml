@@ -1,0 +1,18 @@
+- name: Test-Playbook
+  hosts: virtualmachines
+  connection: local
+  vars:
+      demo_text: Hello world
+
+  roles:
+      - role: show_variables
+      #      - role: folder_operations
+      #      - role: file_operations
+      #      - role: vault_operations
+      #      - role: pip_operations
+      #      - role: apt_operations
+
+  tasks:
+     - name: Print message
+       debug: msg="Local var:{{ demo_text  }}   Global var:{{ global_text }}"
+
