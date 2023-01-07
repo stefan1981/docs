@@ -1,3 +1,6 @@
+# Generl information
+## Links
+(The system design primer)[https://github.com/donnemartin/system-design-primer]
 
 # SOLID Design principles
 
