@@ -147,27 +147,26 @@ J                        hang next line to the end of current line
 
 ## Settings
 ```
-show all visible characters like spaces, tabs, line breaks / hide all visible characters
+# show all visible characters like spaces, tabs, line breaks / hide all visible characters
 set list
 set nolist
 
-Enable / Disable syntax highlighting
+# Enable / Disable syntax highlighting
 syntax on
 syntax off
 
-Enabling current row and column highlighting
+# Enabling current row and column highlighting
 set cursorline
 set cursorcolumn
 
-Enabling relative line numbering (cursor is always at zero)
+# Enabling relative line numbering (cursor is always at zero)
 set relativenumber
 
-Indentation in vi
-you want to mark something in visual mode, and indent the selected part several times to the left or the right?
-First, you add these lines to your .vimrc
+# Indentation in vi
+# you want to mark something in visual mode, and indent the selected part several times to the left or the right?
+# Now you can visually select a text passage (press v move the arrow keys), afterward, indent it to the left by pressing < or indent it to the right by pressing >
 vnoremap < <gv
 vnoremap > >gv
-Now you can visually select a text passage (press v move the arrow keys), afterward, indent it to the left by pressing < or indent it to the right by pressing >
 
 ```
 
