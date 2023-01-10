@@ -146,27 +146,52 @@ J                        hang next line to the end of current line
 ```
 
 ## Settings
+add these settings to your ~/.vimrc
 ```
-# show all visible characters like spaces, tabs, line breaks / hide all visible characters
+" show all visible characters like spaces, tabs, line breaks / hide all visible characters
 set list
 set nolist
 
-# Enable / Disable syntax highlighting
+" Enable / Disable syntax highlighting
 syntax on
 syntax off
 
-# Enabling current row and column highlighting
+" Enabling current row and column highlighting
 set cursorline
 set cursorcolumn
 
-# Enabling relative line numbering (cursor is always at zero)
+" Enabling relative line numbering (cursor is always at zero)
 set relativenumber
 
-# Indentation in vi
-# you want to mark something in visual mode, and indent the selected part several times to the left or the right?
-# Now you can visually select a text passage (press v move the arrow keys), afterward, indent it to the left by pressing < or indent it to the right by pressing >
+" Indentation in vi
+" you want to mark something in visual mode, and indent the selected part several times to the left or the right?
+" Now you can visually select a text passage (press v move the arrow keys), afterward, indent it to the left by pressing < or indent it to the right by pressing >
 vnoremap < <gv
 vnoremap > >gv
+
+" switch tabs
+nmap <F5> :tabp<CR>
+imap <F5> <C-0>:tabp<CR>
+nmap <F6> :tabn<CR>
+imap <F6> <C-0>:tabn<CR>
+
+nmap <F4> :!python3 -m black %<CR>
+imap <F4> <C-0>:!python3 -m black start.py<CR>
+
+" save all files
+nmap <F9> :w!<CR>
+imap <F9> <Esc>:w!<CR>
+
+" some private commands
+command XSortByLength 1,$ ! awk '{ print length(), $0 | "sort -n | cut -d\\  -f2-"  }'
+command XPrefixWithWordCnt 1,$ ! awk '{ print NF " " $0}'
+command XOrderReverse g/^/m0
+command XRemoveNumbers %s/[0-9]\+\(\.[0-9]\+\)\?//g
+command XRemoveSpecialChars %s/\\n/ /g | %s/\!/ /g | %s/\'/ /g
+
+command XStackStop !${HOME}/bi_solution/bi_stack/build/run.sh stop
+command XStackStart !${HOME}/bi_solution/bi_stack/build/run.sh start
+
 
 ```
 
