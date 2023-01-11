@@ -1,4 +1,4 @@
-# tmux?
+# tmux
 
 A handy tool for dealing with different bash sessions is tmux. It's comparable with gnu screen but by far more advanced. You can get it with:
 sudo apt-get install tmux
@@ -26,7 +26,7 @@ ctrl+b ?                            list all shortcuts
 ### Windows
 ```
 ctrl+b c              create a new (c=create)
-ctrl+b &              kill windowbs
+ctrl+b &              kill windows
 ctrl+b ,              rename the current
 ctrl+b p              go to previous (p=previous)
 ctrl+b n              go to next (n=next)

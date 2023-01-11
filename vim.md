@@ -145,8 +145,8 @@ Fe                       go to pevious letter "e" in current line
 J                        hang next line to the end of current line
 ```
 
-## Settings
-add these settings to your ~/.vimrc
+## Settings for .vimrc
+add these settings to the end of your ~/.vimrc
 ```
 " show all visible characters like spaces, tabs, line breaks / hide all visible characters
 set list
@@ -207,3 +207,6 @@ CtrlP allows you, to easily select files and open them in Tabs or windows
 <C - v>         Open marked files verticaly split(in CtrlP)
 <C - x>         Open marked files horizontaly slpit (in CtrlP)
 ```
+
+
+
